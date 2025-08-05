@@ -8,7 +8,7 @@ body {
   font-family: sans-serif;
 }
 table {
-  width: 100%;
+  width: 50%;
   border-collapse: collapse;
 }
 th, td {
@@ -42,43 +42,21 @@ th, td {
   <tr>
     <th>Blood Pressure Reading Counts</th>
     <td>
-      <table>
-        <tr>
-          <th>Category</th>
-          <th>Count</th>
-        </tr>
-        <tr>
-          <td>Low</td>
-          <td><span id="lowBPCount">2</span></td>
-        </tr>
-        <tr>
-          <td>Normal</td>
-          <td><span id="normalBPCount">0</span></td>
-        </tr>
-        <tr>
-          <td>High</td>
-          <td><span id="highBPCount">2</span></td>
-        </tr>
-        <tr>
-          <td>Critical</td>
-          <td><span id="criticalBPCount">1</span></td>
-        </tr>
-      </table>
+      <ul>
+        <li>Low: <span id="lowBPCount">2</span></li>
+        <li>Normal: <span id="normalBPCount">0</span></li>
+        <li>High: <span id="highBPCount">2</span></li>
+        <li>Critical: <span id="criticalBPCount">1</span></li>
+      </ul>
     </td>
   </tr>
   <tr>
     <th>Average Blood Pressure</th>
     <td>
-      <table>
-        <tr>
-          <th>Systolic</th>
-          <td><span id="systolicBP">135.0</span></td>
-        </tr>
-        <tr>
-          <th>Diastolic</th>
-          <td><span id="diastolicBP">92.0</span></td>
-        </tr>
-      </table>
+      <ul>
+        <li>Systolic: <span id="systolicBP">135.0</span></li>
+        <li>Diastolic: <span id="diastolicBP">92.0</span></li>
+      </ul>
     </td>
   </tr>
   <tr>
@@ -99,12 +77,9 @@ th, td {
       </ul>
     </td>
   </tr>
-  <tr>
-    <td colspan="2">
-      <p><strong>Disclaimer:</strong> This information is for data interpretation purposes only and is not a medical diagnosis. Professional medical consultation is recommended for accurate diagnosis and treatment.</p>
-    </td>
-  </tr>
 </table>
+
+<p><strong>Disclaimer:</strong> This information is for data interpretation purposes only and is not a medical diagnosis. Professional medical consultation is recommended for accurate diagnosis and treatment.</p>
 
 </body>
 </html>
