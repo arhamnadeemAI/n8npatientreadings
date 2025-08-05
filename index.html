@@ -1,0 +1,128 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Patient Data</title>
+<style>
+body {font-family: sans-serif;}
+table {width: 100%; border-collapse: collapse;}
+th, td {border: 1px solid black; padding: 8px;}
+th {background-color: #f2f2f2;}
+</style>
+</head>
+<body>
+
+<h1>Patient Data</h1>
+
+<table>
+  <tr>
+    <th>Patient Name</th>
+    <th>ID</th>
+    <th>Gender</th>
+    <th>Primary Conditions</th>
+    <th>Blood Pressure Readings</th>
+    <th>Average Blood Pressure</th>
+    <th>Has Critical Readings</th>
+    <th>Highest Blood Pressure Category</th>
+    <th>Suggested ICD-10 Codes</th>
+  </tr>
+  <tr>
+    <td><span class="patient-name">John Doe</span></td>
+    <td><span class="patient-id">2</span></td>
+    <td><span class="patient-gender">Male</span></td>
+    <td><span class="patient-conditions">Fever</span></td>
+    <td>
+      <span class="blood-pressure-low">Low: 2</span><br>
+      <span class="blood-pressure-normal">Normal: 0</span><br>
+      <span class="blood-pressure-high">High: 2</span><br>
+      <span class="blood-pressure-critical">Critical: 1</span>
+    </td>
+    <td>
+      <span class="blood-pressure-systolic">Systolic: 135.0</span><br>
+      <span class="blood-pressure-diastolic">Diastolic: 92.0</span>
+    </td>
+    <td><span class="critical-readings">Yes</span></td>
+    <td><span class="highest-category">Critical</span></td>
+    <td><span class="icd-codes">I10 (Hypertension), I16 (Hypertensive crisis), R50.9 (Fever, unspecified)</span></td>
+  </tr>
+  <tr>
+    <td><span class="patient-name">Maria Ahmed</span></td>
+    <td><span class="patient-id">5</span></td>
+    <td><span class="patient-gender">Female</span></td>
+    <td><span class="patient-conditions">Asthma</span></td>
+    <td>
+      <span class="blood-pressure-low">Low: 2</span><br>
+      <span class="blood-pressure-normal">Normal: 0</span><br>
+      <span class="blood-pressure-high">High: 3</span><br>
+      <span class="blood-pressure-critical">Critical: 0</span>
+    </td>
+    <td>
+      <span class="blood-pressure-systolic">Systolic: 132.0</span><br>
+      <span class="blood-pressure-diastolic">Diastolic: 83.0</span>
+    </td>
+    <td><span class="critical-readings">No</span></td>
+    <td><span class="highest-category">High</span></td>
+    <td><span class="icd-codes">I10 (Hypertension), J45.909 (Unspecified asthma, uncomplicated)</span></td>
+  </tr>
+  <tr>
+    <td><span class="patient-name">Sara Khan</span></td>
+    <td><span class="patient-id">3</span></td>
+    <td><span class="patient-gender">Female</span></td>
+    <td><span class="patient-conditions">Hypertension</span></td>
+    <td>
+      <span class="blood-pressure-low">Low: 0</span><br>
+      <span class="blood-pressure-normal">Normal: 0</span><br>
+      <span class="blood-pressure-high">High: 5</span><br>
+      <span class="blood-pressure-critical">Critical: 0</span>
+    </td>
+    <td>
+      <span class="blood-pressure-systolic">Systolic: 137.0</span><br>
+      <span class="blood-pressure-diastolic">Diastolic: 89.6</span>
+    </td>
+    <td><span class="critical-readings">No</span></td>
+    <td><span class="highest-category">High</span></td>
+    <td><span class="icd-codes">I10 (Hypertension)</span></td>
+  </tr>
+  <tr>
+    <td><span class="patient-name">John Doe</span></td>
+    <td><span class="patient-id">1</span></td>
+    <td><span class="patient-gender">Male</span></td>
+    <td><span class="patient-conditions">Fever</span></td>
+    <td>
+      <span class="blood-pressure-low">Low: 0</span><br>
+      <span class="blood-pressure-normal">Normal: 2</span><br>
+      <span class="blood-pressure-high">High: 3</span><br>
+      <span class="blood-pressure-critical">Critical: 0</span>
+    </td>
+    <td>
+      <span class="blood-pressure-systolic">Systolic: 129.0</span><br>
+      <span class="blood-pressure-diastolic">Diastolic: 83.8</span>
+    </td>
+    <td><span class="critical-readings">No</span></td>
+    <td><span class="highest-category">High</span></td>
+    <td><span class="icd-codes">I10 (Hypertension), R50.9 (Fever, unspecified)</span></td>
+  </tr>
+  <tr>
+    <td><span class="patient-name">Ali Raza</span></td>
+    <td><span class="patient-id">4</span></td>
+    <td><span class="patient-gender">Male</span></td>
+    <td><span class="patient-conditions">Diabetes</span></td>
+    <td>
+      <span class="blood-pressure-low">Low: 0</span><br>
+      <span class="blood-pressure-normal">Normal: 4</span><br>
+      <span class="blood-pressure-high">High: 1</span><br>
+      <span class="blood-pressure-critical">Critical: 0</span>
+    </td>
+    <td>
+      <span class="blood-pressure-systolic">Systolic: 120.0</span><br>
+      <span class="blood-pressure-diastolic">Diastolic: 77.2</span>
+    </td>
+    <td><span class="critical-readings">No</span></td>
+    <td><span class="highest-category">High</span></td>
+    <td><span class="icd-codes">E11 (Type 2 Diabetes Mellitus), I10 (Hypertension)</span></td>
+  </tr>
+</table>
+
+</body>
+</html>
+```
